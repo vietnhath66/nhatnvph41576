@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    background-image: url(baner.jpg);
+    height: 150px;
+    background-size: 100% 100%;
+}
+nav{
+    background-color: purple;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}   
+nav li:hover{
+    background-color: black;
+}
+aside{
+    padding-left: 30px;
+    background-color: pink;
+    float: left;
+    width: 30%;
+    height: 400px;
+    padding-top: 30px;
+
+}
+aside h2{
+    text-transform: uppercase;
+    paddicng-bottom: 30px;
+}
+aside input{
+    width: 80%;
+    height: 30px;
+}
+aside button{
+    color: white;
+    background-color: black;
+    width: 50%;
+    height: 40px;
+}
+aside div{
+    padding-top: 20px;
+    padding-left: 40px;
+}

@@ -1,0 +1,25 @@
+h2{
+    color: purple;
+    text-align: center;
+}
+.column{
+    width: 800px;
+    height: 500px;
+    border: 3px solid purple;
+}
+.san-pham{
+    width: 200px;
+    height: 400px;
+    border: 1px solid purple;
+    float: left;
+    text-align: center;
+}
+.san-pham .gia{
+    color: orange;
+    font-weight: bold;
+    font-size: larger;
+}
+.san-pham .gia del{
+    color: gray;
+}
+
